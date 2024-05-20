@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -19,7 +20,7 @@ namespace Optomo
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -39,15 +40,25 @@ namespace Optomo
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
-
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
 
-            panel2.Hide();  
-            panel1.Show();  
+         
+       
+
+            Mainmenu mf = new Mainmenu();
+            mf.TopLevel = false;
+            panel3.Controls.Add(mf);
+            mf.Show();
+            mf.Dock = DockStyle.Fill;
+            mf.FormBorderStyle = FormBorderStyle.None;
+
+            panel2.Hide();
             panel1.BringToFront();
+            panel1.Show();  
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -57,5 +68,26 @@ namespace Optomo
 
             panel1.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           // panel3.Size = new Size(1390, 767);
+            this.Size = new Size(1200, 950);
+            panel3.Show();
+            panel3.BringToFront();
+            panel1.Hide();
+            panel2.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            //oUT
+            panel3.Hide();
+            panel1.BringToFront();
+            panel1.Show();
+        }
     }
+
+    
+
 }
