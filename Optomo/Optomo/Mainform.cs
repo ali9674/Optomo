@@ -12,6 +12,33 @@ using System.Data.SqlClient;
 
 namespace Optomo
 {
+    public class Hasta
+    {
+        public Int16 HastaNo;
+        public string HastaAd;
+        public string HastaSoyad;
+        public bool Cinsiyet;
+        public DateTime DogumTarihi;
+        public Int16 DoktorNo;
+
+        public Hasta(Int16 hastano,string hasta_ad,string hasta_soyad , bool cinsyt , DateTime Dgm_tarihi , Int16 doktor_id)
+        {
+            HastaNo = hastano;
+            HastaAd = hasta_ad;
+            HastaSoyad = hasta_soyad;
+            Cinsiyet = cinsyt;  
+            DogumTarihi= Dgm_tarihi;
+            DoktorNo = doktor_id;
+        }
+
+
+
+
+    }
+
+
+
+
     public partial class Mainmenu : Form
     {
         public Mainmenu()
@@ -24,6 +51,8 @@ namespace Optomo
         {
            // label7.Text = DateTime.Now.ToString("dd:MM:yyyy");  tarih biçimi
         }
+
+        
 
         public class yuvarlakbuton : Button
         {
