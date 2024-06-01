@@ -10,3 +10,15 @@ C:\Users\Ali_1\source\repos\Optomo\Optomo\obj\Debug\Optomo.exe
 C:\Users\Ali_1\source\repos\Optomo\Optomo\obj\Debug\Optomo.pdb
 C:\Users\Ali_1\source\repos\Optomo\Optomo\obj\Debug\Optomo.Form1.resources
 C:\Users\Ali_1\source\repos\Optomo\Optomo\obj\Debug\Optomo.Mainmenu.resources
+C:\Users\Ali_1\Documents\GitHub\Optomo\Optomo\Optomo\bin\Debug\Optomo.exe.config
+C:\Users\Ali_1\Documents\GitHub\Optomo\Optomo\Optomo\bin\Debug\Optomo.exe
+C:\Users\Ali_1\Documents\GitHub\Optomo\Optomo\Optomo\bin\Debug\Optomo.pdb
+C:\Users\Ali_1\Documents\GitHub\Optomo\Optomo\Optomo\obj\Debug\Optomo.csproj.AssemblyReference.cache
+C:\Users\Ali_1\Documents\GitHub\Optomo\Optomo\Optomo\obj\Debug\Optomo.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ali_1\Documents\GitHub\Optomo\Optomo\Optomo\obj\Debug\Optomo.Form1.resources
+C:\Users\Ali_1\Documents\GitHub\Optomo\Optomo\Optomo\obj\Debug\Optomo.Mainmenu.resources
+C:\Users\Ali_1\Documents\GitHub\Optomo\Optomo\Optomo\obj\Debug\Optomo.Properties.Resources.resources
+C:\Users\Ali_1\Documents\GitHub\Optomo\Optomo\Optomo\obj\Debug\Optomo.csproj.GenerateResource.cache
+C:\Users\Ali_1\Documents\GitHub\Optomo\Optomo\Optomo\obj\Debug\Optomo.csproj.CoreCompileInputs.cache
+C:\Users\Ali_1\Documents\GitHub\Optomo\Optomo\Optomo\obj\Debug\Optomo.exe
+C:\Users\Ali_1\Documents\GitHub\Optomo\Optomo\Optomo\obj\Debug\Optomo.pdb
